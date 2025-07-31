@@ -5,15 +5,21 @@ VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store", "Store\Store.csproj", "{602D541F-6CC3-4770-A443-1894BF2120D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRental", "CarRental\CarRental.csproj", "{991186F3-33C5-4E4D-B986-ADD51A6CD045}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRental", "CarRental\CarRental.csproj", "{991186F3-33C5-4E4D-B986-ADD51A6CD045}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shape", "Shape\Shape.csproj", "{9DB15668-A8EC-458D-8D2A-D457B14CF40B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shape", "Shape\Shape.csproj", "{9DB15668-A8EC-458D-8D2A-D457B14CF40B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devices", "Devices\Devices.csproj", "{DA3E9787-A770-498C-BAA0-84860D5248E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devices", "Devices\Devices.csproj", "{DA3E9787-A770-498C-BAA0-84860D5248E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bakery", "Bakery\Bakery.csproj", "{A9566BDE-EC9E-4162-A6CB-2609FEB3D56E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bakery", "Bakery\Bakery.csproj", "{A9566BDE-EC9E-4162-A6CB-2609FEB3D56E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstate", "RealEstate\RealEstate.csproj", "{1B2457B9-7AF4-4BB9-A921-A09B05DF50EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealEstate", "RealEstate\RealEstate.csproj", "{1B2457B9-7AF4-4BB9-A921-A09B05DF50EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ButcherShop", "ButcherShop\ButcherShop.csproj", "{4419CEAA-35A2-4651-964D-DEC0A121FAB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserLog", "UserLog\UserLog.csproj", "{A817738D-ADCB-4724-A356-72F439F4EE58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Election", "Election\Election.csproj", "{310BF802-BE7B-4655-AF0B-5A85FD0C43F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{1B2457B9-7AF4-4BB9-A921-A09B05DF50EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B2457B9-7AF4-4BB9-A921-A09B05DF50EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B2457B9-7AF4-4BB9-A921-A09B05DF50EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4419CEAA-35A2-4651-964D-DEC0A121FAB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4419CEAA-35A2-4651-964D-DEC0A121FAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4419CEAA-35A2-4651-964D-DEC0A121FAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4419CEAA-35A2-4651-964D-DEC0A121FAB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A817738D-ADCB-4724-A356-72F439F4EE58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A817738D-ADCB-4724-A356-72F439F4EE58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A817738D-ADCB-4724-A356-72F439F4EE58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A817738D-ADCB-4724-A356-72F439F4EE58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{310BF802-BE7B-4655-AF0B-5A85FD0C43F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310BF802-BE7B-4655-AF0B-5A85FD0C43F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310BF802-BE7B-4655-AF0B-5A85FD0C43F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310BF802-BE7B-4655-AF0B-5A85FD0C43F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
