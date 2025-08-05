@@ -1,0 +1,203 @@
+Files
+
+Exercise 1:
+Project: Store
+Make a program to read the path of a ".csv" file containing the data of items
+sold. Each item has a name, price and quantity, separated by a comma.
+
+Create a new file called "summary.csv", located in a subfolder called "out"
+from the original folder of the source file, containing only the name and
+total value for that item.
+
+Example:
+Source file:
+Smart TV LED 50 4K Philco,350.00,2
+Console PlayStation 5,600.00,1
+Iphone 15,700.00,2
+Notebook Lenovo,500.00,3
+
+Output file:
+Smart TV LED 50 4K Philco,700.00
+Console PlayStation 5,600.00
+Iphone 15,1400.00
+Notebook Lenovo,1500.00
+
+Interfaces
+
+Exercise 2:
+Project: CarRental
+A car rental company charges a rental fee. If the rental is longer than 12 hours, a daily
+fee is charged. In England, a 20% fee is also charged for rentals up to $100.00 and 15%
+for rentals over $100.00.
+
+Create a program that reads the rental data (car model, rental start and rental finish) and
+the hourly and daily rental rates. Generate a payment receipt with the rental amount, tax
+amount and total payment amount.
+
+Example:
+Enter rental data:
+Car model: Civic
+Pickup (dd/MM/yyyy hh:mm): 25/06/2025 10:30
+Return (dd/MM/yyyy hh:mm): 27/06/2025 11:40
+Enter price per hour: 10.00
+Enter price per day: 130.00
+Invoice:
+Basic payment: $390.00
+Tax: $58.50
+Total payment: $448.50
+
+Exercise 3:
+Project: Shape
+Simple example about inheritance versus interface.
+
+Exercise 4:
+Project: Devices
+Simple example about multiple inheritance and the diamond problem.
+
+Exercise 5:
+Project: Bakery
+Write a program to read a ".csv" file from a bakery containing baker data (name and
+salary). Store the data in a list. Display the data sorted by salary.
+
+Example:
+Liam Mason,2500.00
+James Wilson,2700.00
+Oliver Smith,2800.00
+Harper Phoenix,3000.00
+
+Exercise 6:
+Project: RealEstate
+A real estate agency wants to automate its contract processing. Processing a contract
+involves generating monthly installments.
+The real estate agency uses an online payment service to make installment payments. This
+service applies a 1% monthly interest rate to each installment and a 2% payment fee.
+
+Create a program to read the contract data (number, date and total value). Then read
+the number of months for the contract installment. Generate the installments to be
+paid with date and amount.
+
+Example:
+Enter contract data:
+Number: 1240
+Date (dd/MM/yyyy): 28/07/2025
+Total value: 600.00
+Enter number of installments: 3
+Installments:
+28/08/2025 - $206.04
+28/09/2025 - $208.08
+28/10/2025 - $210.12
+
+Generics, set and dictionary
+
+Exercise 7:
+Project: ButcherShop
+Write a program that reads products from a butcher shop (name and price). Display the
+most expensive product.
+
+Example:
+Enter the number of products: 4
+Pepperoni,2.00
+Roast chicken,10.00
+Loin,5.00
+Ribs,6.00
+Most expensive: Roast chicken, $10.00
+
+Exercise 8:
+Project: UserLog
+A website records user access. A log record consists of the username and the time the
+user accessed the website (ISO 8601 standard). Write a program that reads the access
+log from a file and reports how many different users accessed the website.
+
+Example:
+Total users: 6
+
+Source file:
+ellie 2025-06-26T10:45:08
+james 2025-06-26T11:10:36
+dexter 2025-06-26T11:30:12
+ellie 2025-06-26T12:20:00
+liam 2025-06-26T13:18:24
+james 2025-06-26T14:10:52
+ellie 2025-06-26T14:30:20
+dexter 2025-06-26T15:18:10
+kyle 2025-06-26T16:22:14
+dexter 2025-06-26T17:12:30
+ellie 2025-06-26T18:10:14
+emma 2025-06-26T20:20:12
+
+Exercise 9:
+Project: Election
+Write a program to read voting records from a file. Generate a report with the total
+votes for each candidate.
+
+Example:
+Colin Mason: 76 votes 
+Monica Pacheco: 72 votes
+Eddie Smith: 60 votes
+
+Source file:
+Colin Mason,14
+Monica Pacheco,22
+Eddie Smith,22
+Colin Mason,30
+Eddie Smith,14
+Monica Pacheco,28
+Monica Pacheco,22
+Eddie Smith,24
+Colin Mason,32 
+
+Extension method
+
+Exercise 10:
+Project: Posts
+Create an extension method to display the number of hours or days a post was made. Create
+an extension method to trim a sentence of a post according to a given length.
+
+Example:
+Good morning dear fr... 12.4 hours
+
+Lambda expressions, delegates and linq
+
+Exercise 11:
+Project: Supermarket
+Write a program that displays the average price of a list of products and then displays a
+list of products with prices below the average, sorted by name.
+
+Example:
+Roast chicken, 10.00
+Loin, 5.00
+Cookies, 3.00
+Pepperoni, 2.00
+Cheese, 14.00
+Cake, 4.00
+Apple pie, 6.00
+Orange juice, 2.00
+
+Average product prices:
+$5.75
+Products sorted by name:
+Cake
+Cookies
+Loin
+Orange juice
+Pepperoni
+
+Exercise 12:
+Project: Enterprise
+Create a program to read employee data from a ".csv" file (name and salary). Display an
+alphabetical list of employees whose salaries exceed a specified amount. Display the
+sum of the salaries of employees whose names begin with the letter "M".
+
+Example:
+Mason Brecken,3200.00
+Henry Johnson,1900.00
+Michael Phoenix,1700.00
+Liam Oliver,3500.00
+Harper Williams,2800.00
+
+Enter a salary amount: 2000.00
+Names of employees whose salary is higher than the amount entered:
+Harper Williams
+Liam Oliver
+Mason Brecken
+Sum of salary of employees whose name starts with 'M': 4900.00
